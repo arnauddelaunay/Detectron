@@ -1,6 +1,24 @@
-# Detectron
+# Tensorflow Detectron
 
-Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including [Mask R-CNN](https://arxiv.org/abs/1703.06870). It is written in Python and powered by the [Caffe2](https://github.com/caffe2/caffe2) deep learning framework.
+<div align="left">
+  <p>
+  <img src="https://avatars0.githubusercontent.com/u/15658638?s=200&v=4" width="50px" />
+  <b>Tensorflow version of Detectron.</b>
+  </p>
+</div>
+
+Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including [Mask R-CNN](https://arxiv.org/abs/1703.06870). It is written in Python and powered here by the [tensorflow](https://www.tensorflow.org/) deep learning framework (originally powered by Caffe2)
+
+## TODO
+
+ - [x] Fork repo
+ - [x] Update `README.md`
+ - [ ] Reimplement tf version of each model
+ - [ ] Rewrite Dockerfile with a Tensorflow image
+ - [ ] Update documentation
+ - [ ] Run the tests
+ - [ ] Communicate & share
+
 
 At FAIR, Detectron has enabled numerous research projects, including: [Feature Pyramid Networks for Object Detection](https://arxiv.org/abs/1612.03144), [Mask R-CNN](https://arxiv.org/abs/1703.06870), [Detecting and Recognizing Human-Object Interactions](https://arxiv.org/abs/1704.07333), [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002), [Non-local Neural Networks](https://arxiv.org/abs/1711.07971), [Learning to Segment Every Thing](https://arxiv.org/abs/1711.10370), and [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440).
 
